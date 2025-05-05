@@ -1,4 +1,3 @@
-player_name = prompt("Enter Your Name");
 alert("Hello " + player_name);
 player_guess = prompt("Guess Rock, Paper Or Scissors");
 computer_guess = randomInteger(1, 3);
