@@ -2,12 +2,17 @@
   height: 80px;
 }
 
-.banner,
-.banner2 {
+.banner {
   height: 800px;
   width: 80%;
 }
 
 .carousel-inner {
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption {
+  font-size: 40px;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
 }
