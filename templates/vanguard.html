@@ -1,9 +1,17 @@
-{% extends 'layout.html' %} {% block content %} {% include
-"partials/slider.html" %}
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <h1>Vanguard</h1>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <div class="row">
     {% for card in cards %}
-    <div class="col-lg-4 col-md-6 col-sm-12">
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="card">
         <img src="{{ card[3]}}" class="card-img-top" alt="..." />
         <div class="card-body">

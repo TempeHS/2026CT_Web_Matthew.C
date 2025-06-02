@@ -3,16 +3,10 @@
 }
 
 .banner {
-  height: 800px;
+  height: auto;
   width: 80%;
 }
 
 .carousel-inner {
   background-color: rgba(0, 0, 0, 0.75);
-}
-
-.carousel-caption {
-  font-size: 40px;
-  font-family: monospace;
-  color: rgb(0, 0, 0);
 }
