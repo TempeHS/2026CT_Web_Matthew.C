@@ -44,5 +44,29 @@ def vanguard():
         )
     return render_template("vanguard.html", cards=card_data), 200
 
+@app.route('/moonknight.html')
+def moonknight():
+    return render_template("moonknight.html"), 200
+
+@app.route('/groot.html')
+def groot():
+    return render_template("groot.html"), 200
+
+@app.route('/jeff.html')
+def jeff():
+    return render_template("jeff.html"), 200
+
+@app.route('/punisher.html')
+def punisher():
+    return render_template("punisher.html"), 200
+
+@app.route('/magneto.html')
+def magneto():
+    return render_template("magneto.html"), 200
+
+@app.route('/rocket.html')
+def rocket():
+    return render_template("rocket.html"), 200
+
 if __name__ == '__main__':
     app.run(debug=True)
