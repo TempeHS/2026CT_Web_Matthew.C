@@ -10,3 +10,8 @@
 .carousel-inner {
   background-color: rgba(0, 0, 0, 0.75);
 }
+
+.htptitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
