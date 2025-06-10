@@ -12,6 +12,19 @@
 }
 
 .htptitle {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+}
+
+.htpsubtitle {
+  font-family: "Verdana, Geneva, Tahoma, sans-serif ";
+  text-align: center;
+}
+
+.htpbody {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
 }
