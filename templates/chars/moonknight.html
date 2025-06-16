@@ -1,60 +1,45 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container mt-4">
-  <div class="row mb-2 text-center">
-    <h1>Moon Knight</h1>
-  </div>
-</div>
-
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner" align="center">
-    <div class="carousel-item active">
-      <img src="static/images/thumb/thumb1.png" class="banner" alt="..." />
+<div class="bg">
+  <div class="container mt-4">
+    <div class="row mb-2 text-center">
+      <div class="htptruetitle">
+        <h1>Moon Knight</h1>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="mt-4">
-  <div class="htptitle">
-    <h1>How To Play Moon Knight</h1>
-  </div>
-</div>
-
-<div class="mt-4">
-  <div class="htpsubtitle">
-    <h2>SUBTITLE</h2>
-  </div>
-</div>
-
-<div class="htpbody">
-  <h3>
-    Western gorillas live in groups that vary in size from two to twenty
-    individuals. Such groups are composed of at least one male, several females
-    and their offspring.
-  </h3>
-  <div class="mt-4 col-lg-12 col-md-12 col-sm-12">
-    Of the invertebrates consumed by the western gorillas, termites and ants
-    make up the majority. Caterpillars, grubs, and larvae are also consumed in
-    rarity. Some ethnographic and pharmacological studies have suggested a
-    possible medicinal value in particular foods consumed by the western
-    gorilla.
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner" align="center">
+      <div class="carousel-item active">
+        <img src="static/images/thumb/thumb1.png" class="banner" alt="..." />
+      </div>
+    </div>
   </div>
 
-  <div class="htptable">
-    <table class="mt-4 table-bordered">
-      <thead>
-        <tr>
-          <th>Header 1</th>
-          <th>Header 2</th>
-          <th>Header 3</th>
-        </tr>
-      </thead>
-      <tr>
-        <th>Body 1</th>
-        <th>Body 2</th>
-        <th>Body 3</th>
-      </tr>
-    </table>
+  <div class="mt-4">
+    <div class="htptitle">
+      <div class="heroesbg">
+        <h1>How To Play Moon Knight</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <div class="htpsubtitle">
+      <h2>SUBTITLE</h2>
+    </div>
+  </div>
+
+  <div class="htpbody">
+    <h3>
+      Western gorillas live in groups that vary in size from two to twenty
+      individuals. Such groups are composed of at least one male, several
+      females and their offspring.
+    </h3>
+    <div class="htpsubtitle">
+      <h2>List of Abilities</h2>
+    </div>
+    {% include 'table/table1.html' %}
   </div>
 </div>
-
 {% endblock %}

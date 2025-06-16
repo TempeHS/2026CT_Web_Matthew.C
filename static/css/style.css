@@ -14,11 +14,18 @@
 .htptitle {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+  color: rgb(255, 87, 87);
 }
 
+.htptruetitle {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: black;
+}
 .htpsubtitle {
   font-family: "Verdana, Geneva, Tahoma, sans-serif ";
   text-align: center;
+  color: black;
 }
 
 .htpbody {
@@ -27,4 +34,27 @@
   text-align: left;
   margin-left: 400px;
   margin-right: 400px;
+  color: black;
+}
+
+.heroesbg {
+  background: linear-gradient(
+    rgb(51, 47, 235),
+    rgb(133, 21, 207),
+    rgb(236, 133, 181)
+  );
+}
+
+.heroes {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 87, 87);
+}
+
+.bg {
+  background: rgba(49, 43, 43, 0.75);
+}
+
+.htptable {
+  background-color: rgb(206, 202, 202);
+  text-align: center;
 }
