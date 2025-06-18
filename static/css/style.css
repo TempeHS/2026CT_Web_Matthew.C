@@ -11,6 +11,10 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+.card {
+  border-color:rgb(27, 27, 27);
+}
+
 .htptitle {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
@@ -20,21 +24,23 @@
 .htptruetitle {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  color: black;
+  color: rgb(255, 87, 87);
 }
 .htpsubtitle {
   font-family: "Verdana, Geneva, Tahoma, sans-serif ";
   text-align: center;
   color: black;
+  text-underline-position: below;
+  text-decoration: underline;
 }
 
 .htpbody {
-  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+  font-family: "Tahoma";
     sans-serif;
   text-align: left;
-  margin-left: 400px;
-  margin-right: 400px;
   color: black;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .heroesbg {
@@ -48,6 +54,7 @@
 .heroes {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(255, 87, 87);
+  padding-top: 1rem;
 }
 
 .bg {
@@ -57,4 +64,14 @@
 .htptable {
   background-color: rgb(206, 202, 202);
   text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Tahoma";
+}
+
+.hometext {
+  margin: left 10%;
+  margin: right 10%;
+  color: rgb(22, 22, 22);
+  font-family: "Tahoma";
 }
