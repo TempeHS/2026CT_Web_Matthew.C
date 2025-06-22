@@ -1,31 +1,36 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container mt-4">
-  <div class="row mb-5">
-    <div class="text-center">
-      <h1>Duelist</h1>
-      <h2>
-        Duelists are the main damage output of your team during matches, they
-        are usually on the frontline fighting with other duelists and vanguards.
-      </h2>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    {% for card in cards %}
-
-    <div class="col-lg-6 col-md-12 col-sm-12">
-      <div class="card">
-        <img src="{{ card[3]}}" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{{ card[0]}}</h5>
-          <p class="card-text">{{ card[1]}}</p>
-          <a href="{{ card[4]}}" class="btn btn-primary">{{ card[2]}}</a>
+<div class="bgrole">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="text-center">
+        <div class="roleheader"><h1>Duelist</h1></div>
+        <div class="rolebody">
+          <h2>
+            Duelists are the main damage output of your team during matches,
+            they are usually on the frontline fighting with other duelists and
+            vanguards.
+          </h2>
         </div>
       </div>
     </div>
-    {% endfor %}
+  </div>
+
+  <div class="container">
+    <div class="row">
+      {% for card in cards %}
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card">
+          <img src="{{ card[3]}}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">{{ card[0]}}</h5>
+            <p class="card-text">{{ card[1]}}</p>
+            <a href="{{ card[4]}}" class="btn btn-primary">{{ card[2]}}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 {% endblock %}
