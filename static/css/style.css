@@ -31,14 +31,14 @@
   background: linear-gradient(
     rgb(51, 47, 235),
     rgb(133, 21, 207),
-    rgb(51, 47, 235)
+    rgb(236, 133, 181)
   );
 }
 
 .htpsubtitle {
   font-family: "Verdana, Geneva, Tahoma, sans-serif ";
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   text-underline-position: below;
   text-decoration: underline;
   padding-top: 1rem;
@@ -75,7 +75,7 @@
 
 .bgrole {
   background: rgba(49, 43, 43, 0.75);
-  padding-bottom: 6.2rem;
+  padding-bottom: 5.7rem;
 }
 
 .htptable {
@@ -118,4 +118,22 @@
   padding-bottom: 2.45rem;
   padding-top: 2rem;
   color: rgb(235, 230, 230);
+}
+
+.htpbody2 {
+  font-family: "Tahoma", sans-serif;
+  color: rgb(255, 110, 110);
+  margin-left: 15%;
+  margin-right: 50%;
+  background-color: rgba(43, 0, 112, 0.5);
+  border: solid, rgba(168, 168, 168, 0.74);
+}
+
+.htpsubsubtitle {
+  font-family: "Verdana, Geneva, Tahoma, sans-serif ";
+  margin-left: 20%;
+  color: rgb(255, 110, 110);
+  text-underline-position: below;
+  text-decoration: underline;
+  padding-top: 1rem;
 }
