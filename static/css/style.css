@@ -120,20 +120,33 @@
   color: rgb(235, 230, 230);
 }
 
+.htpbody2-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 10%;
+}
+
 .htpbody2 {
   font-family: "Tahoma", sans-serif;
   color: rgb(255, 110, 110);
-  margin-left: 15%;
-  margin-right: 50%;
+  margin-left: 10%;
   background-color: rgba(43, 0, 112, 0.5);
   border: solid, rgba(168, 168, 168, 0.74);
 }
 
 .htpsubsubtitle {
   font-family: "Verdana, Geneva, Tahoma, sans-serif ";
-  margin-left: 20%;
+  text-align: center;
   color: rgb(255, 110, 110);
   text-underline-position: below;
   text-decoration: underline;
   padding-top: 1rem;
+}
+
+.mkimg {
+  width: auto;
+  height: auto;
+  margin-right: 15%;
+  background-color: darkgray;
+  border: solid, rgb(255, 110, 110);
 }
